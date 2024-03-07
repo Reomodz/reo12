@@ -192,16 +192,15 @@ def getKey():
 logo=("""\
 
     
-                  \033[1;91m______             ___  ___       ______  ______
-                  \033[1;91m| ___ \            |  \/  |       |  _  \|___  /
-                  \033[1;91m| |_/ / ___   ___  | .  . |  ___  | | | |   / / 
-                  \033[1;91m|    / / _ \ / _ \ | |\/| | / _ \ | | | |  / /  
-                  \033[1;91m| |\ \|  __/| (_) || |  | || (_) || |/ / ./ /___
-                  \033[1;91m\_| \_|\___| \___/ \_|  |_/ \___/ |___/  \_____                                                                                      
-         {m}▪︎{k}▪︎{h}▪︎{sir} META MULTI BRUTEFORCE FACEBOOK {x}{m}▪︎{k}▪︎{h}▪︎{x}''')   
-                                            
+   \033[1;91m______             ___  ___       ______  ______
+   \033[1;91m| ___ \            |  \/  |       |  _  \|___  /
+   \033[1;91m| |_/ / ___   ___  | .  . |  ___  | | | |   / / 
+   \033[1;91m|    / / _ \ / _ \ | |\/| | / _ \ | | | |  / /  
+   \033[1;91m| |\ \|  __/| (_) || |  | || (_) || |/ / ./ /___
+   \033[1;91m\_| \_|\___| \___/ \_|  |_/ \___/ |___/  \_____                                                                                      
+                                             
 \033[1;91m--------------------------------------------------
-\033[1;32m[~] Author   : \033[]1;93 ReoModz
+\033[1;32m[~] Author   : ReoModz  
 \033[1;32m[~] Tool     : Private 
 \033[1;32m[~] Version  : 1.4~
 \033[1;91m----------------------------------------------""")
@@ -231,14 +230,14 @@ def menu():
                                 file()
                         elif axs in ['2','02']:
                                 print("not work now")
-                                input(" press enter to send key")
+                                menu()
                         elif axs in ['3','03']:
                                 rndmpk()      
                         elif axs in ['4','04']:
                                 gmail()
                         elif axs in ['5','05']:
-                                wx=("Dsj9JMWoixk4Qsje0Ng3nA")
-                                os.system(f'xdg-open https://chat.whatsapp.com/{wx}');menu()
+                                print("not work now")
+                                menu()
                         elif axs in ['0','00']:
                                 exit(" Thanks for use my tool")        
                         else: 
@@ -370,7 +369,7 @@ def npxind():
                 print('\033[1;37m Example : ,9816,9814,ETC')
                 linex()
                 print(" Put your country 4digit code")
-                linex()
+                linex
                 code = input('\033[1;37m put code: ')
                 try:
                         limit = int(input('\033[1;37m example: 2000, 3000, 5000, 10000\n\033[1;37m put limit: '))
