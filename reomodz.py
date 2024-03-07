@@ -191,24 +191,21 @@ def getKey():
     return bumper
 logo=("""\
 
-
-
-
-   \033[1;32m______             ___  ___       ______  ______
-   \033[1;32m| ___ \            |  \/  |       |  _  \|___  /
-   \033[1;32m| |_/ / ___   ___  | .  . |  ___  | | | |   / / 
-   \033[1;32m|    / / _ \ / _ \ | |\/| | / _ \ | | | |  / /  
-   \033[1;32m| |\ \|  __/| (_) || |  | || (_) || |/ / ./ /___
-   \033[1;32m\_| \_|\___| \___/ \_|  |_/ \___/ |___/  \_____                                                                                      
-                    
-\033[1;32m--------------------------------------------------
-\033[1;32m[~] Author   : ReoModz 
-\033[1;32m[~] Facebook : ReoModz 
-\033[1;32m[~] Tool     : Free
-\033[1;32m[~] Version  : 19.€9~
-\033[1;32m----------------------------------------------""")
+    
+   \033[1;91m______             ___  ___       ______  ______
+   \033[1;91m| ___ \            |  \/  |       |  _  \|___  /
+   \033[1;91m| |_/ / ___   ___  | .  . |  ___  | | | |   / / 
+   \033[1;91m|    / / _ \ / _ \ | |\/| | / _ \ | | | |  / /  
+   \033[1;91m| |\ \|  __/| (_) || |  | || (_) || |/ / ./ /___
+   \033[1;91m\_| \_|\___| \___/ \_|  |_/ \___/ |___/  \_____                                                                                      
+                                             
+\033[1;91m--------------------------------------------------
+\033[1;32m[~] Author   : ReoModz  
+\033[1;32m[~] Tool     : Private 
+\033[1;32m[~] Version  : 1.4~
+\033[1;91m----------------------------------------------""")
 def linex():
-        print('\033[1;37m----------------------------------------------')
+        print('\033[1;91m----------------------------------------------')
 def clear():
         os.system('clear')
         print(logo)
@@ -238,10 +235,7 @@ def menu():
                         elif axs in ['4','04']:
                                 gmail()
                         elif axs in ['5','05']:
-                                wx=("Dsj9JMWoixk4Qsje0Ng3nA")
-                                os.system(f'xdg-open https://chat.whatsapp.com/{wx}');menu()
-                        elif axs in ['6','06']:
-                                os.system('xdg-open https://fb.watch/ikMLhudxhU/');menu() 
+                                print("not work now")
                         elif axs in ['0','00']:
                                 exit(" Thanks for use my tool")        
                         else: 
@@ -264,7 +258,7 @@ def za():
         linex()
         input(" press enter to send key")
         linex();print(" You are not paid user ");linex()
-        os.system("xdg-open https://wa.me/+8801731259842")
+        
 
 def file():
                           #      verf()	
@@ -1058,7 +1052,7 @@ def rndm(ids,passlist):
                 pass                   
                         
 try:
-	menu()
+	za()
 except requests.exceptions.ConnectionError:
 	print('\n No internet connection ...')
 	exit()
