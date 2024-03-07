@@ -205,33 +205,6 @@ logo=("""\
 \033[1;32m[~] Tool     : Private 
 \033[1;32m[~] Version  : 1.4~
 \033[1;91m----------------------------------------------""")
-try:cek_data = requests.get("http://ip-api.com/json/").json()
-	except:cek_data = {'-'}
-	try:ipbusuk = cek_data["isp"]
-	except:ipbusuk = {'-'}
-	try:asal_kota = cek_data["city"]
-	except:asal_kota = {'-'}
-	try:asal_reg = cek_data["region"]
-	except:asal_reg = cek_data['-']
-	try:times = cek_data["timezone"]
-	except:times = cek_data['-']
-	try:city = cek_data["city"]
-	except:city = cek_data['-']
-	jam = strftime('%H:%M:%S')
-print('\x1b[1;92m<--------------------------------------------------------------------------------------------------->')
-	print('\t\t\t             \x1b[1;92m▪︎\x1b[1;93m▪︎\x1b[1;91m▪︎\x1b[1;92mINFORMASI LOKASI ANDA\x1b[1;91m▪︎\x1b[1;93m▪︎\x1b[1;92m▪︎')
-	print('')
-	print(f'\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>{h}Internet Protocol Kamu       : {k}{ip}')
-	print(f'\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>{h}Informasi Negara Kamu        : {k}{negara}')
-	print(f'\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>{h}Informasi Kota Kamu          : {k}{asal_kota}')
-	print(f'\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>{h}Informasi Kartu Kamu         : {k}{sim}')
-	print(f'\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>{h}Informasi Wiayah Kamu        : {k}{asal_reg}')
-	print(f'\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>{h}Informasi Waktu Saat Ini     : {k}{jam}')
-	print(f'\x1b[1;93m[\x1b[1;92m+\x1b[1;93m]\x1b[1;93m ╰─>{h}Informasi Tanggal Sekarang   : {k}{hari},{sekarang}')
-	print('\x1b[1;92m<--------------------------------------------------------------------------------------------------->')
-	print('\t\t\t\t        \x1b[1;92m▪︎\x1b[1;93m▪︎\x1b[1;91m▪︎\x1b[1;92mINFORMASI MENU\x1b[1;91m▪︎\x1b[1;93m▪︎\x1b[1;92m▪︎')
-	print('')
-
 def linex():
         print('\033[1;91m----------------------------------------------')
 def clear():
