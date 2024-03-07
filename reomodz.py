@@ -230,14 +230,14 @@ def menu():
                                 file()
                         elif axs in ['2','02']:
                                 print("not work now")
-                                linex()
+                                menu()
                         elif axs in ['3','03']:
                                 rndmpk()      
                         elif axs in ['4','04']:
                                 gmail()
                         elif axs in ['5','05']:
                                 print("not work now")
-                                linex()
+                                menu()
                         elif axs in ['0','00']:
                                 exit(" Thanks for use my tool")        
                         else: 
